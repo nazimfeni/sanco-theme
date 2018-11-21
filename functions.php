@@ -5,3 +5,5 @@ function sanco_theme_assets() {
 }
  
 add_action( 'wp_enqueue_scripts', 'sanco_theme_assets' );
+
+register_nav_menus( [ 'primary' => __( 'Primary Menu' ) ] );
